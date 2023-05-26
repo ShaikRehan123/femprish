@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Forum&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Forum", cursive;
+}
+
+p,
+a {
+  font-family: "Barlow", sans-serif;
+}
+
+b {
+  @apply text-2xl font-bold text-pink-600;
+}
+
+.descriptions {
+  @apply p-4 border border-pink-100 rounded-lg shadow-lg shadow-pink-50;
+}
+
+.descriptions > dd {
+  @apply text-lg text-gray-700;
+}
